@@ -81,7 +81,30 @@ DroneVisionAI/
    ````bash
    pytest tests/
    ````
+4. **Frontendi Çalışırma**
+  - Frontend için frontend/ klasörünü oluşturun ve React projesi başlatın:
+   ```bash
+    npx create-react-app frontend
+    cd frontend
+    npm install axios
+   ```
+   - Frontend'i başlatmak için:
+   ```bash
+      cd frontend
+      npm start
+   ```
+5. **Backend ve Frontend Birlikte Çalıştırma**
+   - Frontendi Çalıştırın
+     ```bash
+     cd frontend
+     npm start
+     ```
+   - Backendi Çalıştırın
+     ```bash
+     uvicorn src.main:app --reload
+     ````
 
+   
 ## Geliştirme ve Katkı
 Proje açık kaynak olarak geliştirilmekte olup, katkılarınızı memnuniyetle karşılarız.
 Lütfen hata bildirmek veya özellik talep etmek için issue açınız. Pull request göndermekten çekinmeyiniz.
