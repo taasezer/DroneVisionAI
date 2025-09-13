@@ -6,6 +6,12 @@
 ```` bash
 DroneVisionAI/
 │
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── ...
+│
 ├── .github/
 │   └── workflows/
 │       └── python-test.yml
@@ -32,6 +38,7 @@ DroneVisionAI/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+
 ````
 
 
