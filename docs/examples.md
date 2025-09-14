@@ -25,7 +25,8 @@
 ```bash
 curl -X POST -F "file=@tests/test.jpg" http://localhost:8000/upload/
 ```
-## Üm Tespitleri İzleme
+## Tespitleri İzleme
 ```bash
 curl http://localhost:8000/detections/
+
 ```
